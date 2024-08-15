@@ -56965,5 +56965,8 @@ textarea {
       -o-object-fit: cover;
          object-fit: cover; }
 
+.statistics-main__title {
+  margin-bottom: 20px; }
+
 
 /*# sourceMappingURL=styles.css.map*/
