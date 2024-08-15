@@ -95,6 +95,198 @@
 </header>
 
 <main>
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+
+                <!-- sidebar -->
+                <div class="col-xl-3 col-lg-3 theiaStickySidebar">
+                    <div class="settings-widget dash-profile">
+                        <div class="settings-menu">
+                            <div class="profile-bg">
+                                <div class="profile-img">
+                                    <a href="./adminProfile.html">
+                                        <img src="./img/profiles/avatar-01.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="profile-group">
+                                <div class="profile-name text-center">
+                                    <h4><a href="./adminProfile.html">Rolands Richard</a></h4>
+                                    <p>Student</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-widget account-settings">
+                        <div class="settings-menu">
+                            <h3>Dashboard</h3>
+                            <ul>
+                                <li class="nav-item ">
+                                    <a href="./studentDashboard.html" class="nav-link">
+                                        <i class="bx bxs-tachometer"></i>Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./adminProfile.html" class="nav-link">
+                                        <i class="bx bxs-user"></i>Мой профиль
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./studentDashboard.html" class="nav-link">
+                                        <i class="bx bxs-graduation"></i>Enrolled Courses
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="./adminReviews.html" class="nav-link">
+                                        <i class="bx bxs-star"></i>Отзывы
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="student-quiz.html" class="nav-link">
+                                        <i class="bx bxs-shapes"></i>Мои тесты
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="student-order-history.html" class="nav-link">
+                                        <i class="bx bxs-cart"></i>Order History
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="student-qa.html" class="nav-link">
+                                        <i class="bx bxs-bookmark-alt"></i>Question & Answer
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="student-referral.html" class="nav-link">
+                                        <i class="bx bxs-user-plus"></i>Referrals
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="./studentTickets.html" class="nav-link">
+                                        <i class="bx bxs-coupon"></i>Поддержка
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3>Account Settings</h3>
+                            <ul>
+                                <li class="nav-item active">
+                                    <a href="student-settings.html" class="nav-link ">
+                                        <i class="bx bxs-cog"></i>Настройки
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">
+                                        <i class="bx bxs-log-out"></i>Выход
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Sidebar -->
+
+                <!-- Student Settings -->
+                <div class="col-xl-9 col-lg-9">
+
+                    <div class="settings-widget card-details">
+                        <div class="settings-menu p-0">
+                            <div class="profile-heading">
+                                <h3>Settings</h3>
+                                <p>You have full control to manage your own account settings</p>
+                            </div>
+                            <div class="settings-page-head">
+                                <ul class="settings-pg-links">
+                                    <li><a href="student-settings.html" class="active"><i class="bx bx-edit"></i>Edit
+                                        Profile</a></li>
+                                    <li><a href="student-change-password.html"><i class="bx bx-lock"></i>Change Password</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form action="student-settings.html">
+                                <div class="course-group profile-upload-group mb-0 d-flex">
+                                    <div class="course-group-img profile-edit-field d-flex align-items-center">
+                                        <a href="./adminProfile.html" class="profile-pic">
+                                            <img src="./img/profiles/avatar-01.jpg" alt="">
+                                        </a>
+                                        <div class="profile-upload-head">
+                                            <h4><a href="./adminProfile.html">Your avatar</a></h4>
+                                            <p>PNG or JPG no bigger than 800px width and height</p>
+                                            <div class="new-employee-field">
+                                                <div class="d-flex align-items-center mt-2">
+                                                    <div class="image-upload mb-0">
+                                                        <input type="file">
+                                                        <div class="image-uploads">
+                                                            <i class="bx bx-cloud-upload"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="img-delete">
+                                                        <a href="#" class="delete-icon"><i class="bx bx-trash"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="checkout-form settings-wrap">
+                                    <div class="edit-profile-info">
+                                        <h5>Personal Details</h5>
+                                        <p>Edit your personal information</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-block">
+                                                <label class="form-label">First Name</label>
+                                                <input type="text" class="form-control" value="Ronald">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-block">
+                                                <label class="form-label">Last Name</label>
+                                                <input type="text" class="form-control" value="Richard">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-block">
+                                                <label class="form-label">User Name</label>
+                                                <input type="text" class="form-control" value="studentdemo">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-block">
+                                                <label class="form-label">Phone Number</label>
+                                                <input type="text" class="form-control" value="90154-91036">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input-block">
+                                                <label class="form-label">Designation</label>
+                                                <input type="text" class="form-control" value="User Interface Design">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input-block">
+                                                <label class="form-label">Bio</label>
+                                                <textarea rows="4" class="form-control">Hello! I'm Ronald Richard. I'm passionate about developing innovative software solutions, analyzing classic literature. I aspire to become a software developer, work as an editor. In my free time, I enjoy coding, reading, hiking etc.</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button class="navi-btn navi-btn--blue" type="submit">Update Profile
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Student Settings -->
+
+            </div>
+        </div>
+    </div>
 </main>
 <footer class="footer">
     <div class="container">
